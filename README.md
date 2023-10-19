@@ -1,1 +1,1 @@
-The CK&M Site is dedicated to CK&M Property Services.
+This site will be dedicated to CSRA Home Services.
