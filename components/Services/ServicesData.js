@@ -1,92 +1,95 @@
 export const serviceData = [
+  // irrigation
   {
     title: "Irrigation",
     altImage: "Irrigation Image by Peggychoucair from Pixabay",
     mainContent:
-      "Looking to sell your house quickly and secure cash in hand? We specialize in expedited property sales, helping homeowners like you turn their properties into instant cash. Our team of professionals is dedicated to making your selling experience seamless and lucrative. Explore our services and discover how we can swiftly turn your property into much-needed funds.",
+      "Ensure your landscape remains vibrant and thriving with efficient irrigation solutions. We understand the importance of proper watering, and the irrigation services are tailored to keep your plants, lawns, and gardens healthy all year round.",
     listContent: [
       {
-        title: "Fast Cash for Your Home: ",
+        title: "Customized Irrigation Systems: ",
         content:
-          "We offer quick and hassle-free property sales, ensuring you get cash in hand when you need it most.",
+          "Design and install irrigation systems specific to your landscape's needs.",
       },
       {
-        title: "Streamlined Sales Process: ",
+        title: "Smart Water Management: ",
         content:
-          "Our proven strategies and efficient processes are designed to expedite the sale of your property.",
+          "Systems are equipped with smart technology to conserve water and reduce costs.",
       },
       {
-        title: "Competitive Offers: ",
+        title: "Repairs and Maintenance: ",
         content:
-          "We provide competitive cash offers for your property, ensuring you receive a fair, market value.",
+          "Ongoing maintenance and quick repairs to keep your system functioning at its best.",
       },
       {
-        title: "Cash for Any Condition: ",
+        title: "Drip Irrigation: ",
         content:
-          "Don't worry about repairs or renovations. We buy properties in any condition, saving you time and money.",
+          "Precision watering to maximize efficiency while minimizing water wastage.",
       },
     ],
     secondaryContent:
-      "Ready to sell your house fast and receive cash in hand? Contact Us today to get started on your quick and hassle-free property sale.",
+      "With irrigation services, you can relax knowing your landscape is receiving the care it deserves. Enjoy lush, green surroundings without the hassle of manual watering.",
   },
+  // landscaping
   {
     title: "Landscaping",
     altImage: "Landscaping Image by mschiffm from Pixabay",
     mainContent:
-      "Looking to sell your house quickly and secure cash in hand? We specialize in expedited property sales, helping homeowners like you turn their properties into instant cash. Our team of professionals is dedicated to making your selling experience seamless and lucrative. Explore our services and discover how we can swiftly turn your property into much-needed funds.",
+      "Transform your outdoor space into a lush oasis with expert landscaping services. Let a team of experienced professionals take pride in designing and maintaining beautiful landscapes that enhance the beauty and functionality of your property.",
     listContent: [
       {
-        title: "Fast Cash for Your Home: ",
+        title: "Custom Landscape Design: ",
         content:
-          "We offer quick and hassle-free property sales, ensuring you get cash in hand when you need it most.",
+          "We create tailored landscape designs that suit your preferences and budget.",
       },
       {
-        title: "Streamlined Sales Process: ",
+        title: "Lawn Maintenance: ",
         content:
-          "Our proven strategies and efficient processes are designed to expedite the sale of your property.",
+          "From mowing to fertilization, we keep your lawn looking green and healthy.",
       },
       {
-        title: "Competitive Offers: ",
+        title: "Planting and Hardscaping: ",
         content:
-          "We provide competitive cash offers for your property, ensuring you receive a fair, market value.",
+          "Choose from a wide variety of plants and hardscape elements for a stunning outdoor environment.",
       },
       {
-        title: "Cash for Any Condition: ",
+        title: "Irrigation Solutions: ",
         content:
-          "Don't worry about repairs or renovations. We buy properties in any condition, saving you time and money.",
+          "Our irrigation systems ensure your landscape receives the right amount of water for optimal growth.",
       },
     ],
     secondaryContent:
-      "Ready to sell your house fast and receive cash in hand? Contact Us today to get started on your quick and hassle-free property sale.",
+      "Whether you need a complete landscape makeover or routine maintenance, there are landscaping services designed to exceed your expectations.",
   },
+  // retaining walls
   {
     title: "Retaining Wall",
     altImage: "Retaining Wall",
     mainContent:
-      "Looking to sell your house quickly and secure cash in hand? We specialize in expedited property sales, helping homeowners like you turn their properties into instant cash. Our team of professionals is dedicated to making your selling experience seamless and lucrative. Explore our services and discover how we can swiftly turn your property into much-needed funds.",
+      "Retaining walls not only add a touch of elegance to your landscape but also serve a functional purpose. Rsetaining wall solutions are designed to prevent erosion, provide structural support, and enhance the overall aesthetics of your property.",
     listContent: [
       {
-        title: "Fast Cash for Your Home: ",
+        title: "Custom Design: ",
         content:
-          "We offer quick and hassle-free property sales, ensuring you get cash in hand when you need it most.",
+          "Create retaining walls tailored to your property's unique needs and style.",
       },
       {
-        title: "Streamlined Sales Process: ",
+        title: "Variety of Materials: ",
         content:
-          "Our proven strategies and efficient processes are designed to expedite the sale of your property.",
+          "Choose from a range of materials, including stone, concrete, and timber, for a distinctive look.",
       },
       {
-        title: "Competitive Offers: ",
+        title: "Erosion Control: ",
         content:
           "We provide competitive cash offers for your property, ensuring you receive a fair, market value.",
       },
       {
-        title: "Cash for Any Condition: ",
+        title: "Structural Integrity: ",
         content:
-          "Don't worry about repairs or renovations. We buy properties in any condition, saving you time and money.",
+          "Build sturdy retaining walls that will stand the test of time.",
       },
     ],
     secondaryContent:
-      "Ready to sell your house fast and receive cash in hand? Contact Us today to get started on your quick and hassle-free property sale.",
+      "Retaining walls not only serve a practical purpose but also elevate the beauty of your property. Whether you need a small garden wall or a larger retaining structure, ensure you have the expertise to bring your vision to reality.",
   },
 ];
