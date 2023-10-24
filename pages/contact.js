@@ -23,16 +23,7 @@ export default function Contact() {
           objectFit: "cover",
         }}
       />
-      <Container
-        className="d-flex align-items-center flex-column"
-        style={{
-          position: "absolute",
-          top: "60%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          zIndex: 1,
-        }}
-      >
+      <Container className="d-flex align-items-center flex-column">
         <h1 className="mt-3 fw-bold">Contact Us</h1>
 
         <ContactForm />

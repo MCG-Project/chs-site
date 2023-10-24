@@ -9,6 +9,7 @@ export function ContactForm() {
   const [user_email, setUser_email] = useState("");
   const [user_phone, setUser_phone] = useState("");
   const [message, setMessage] = useState("");
+  const [service_type, setService_type] = useState([]);
   const [isMessageSent, setMessageSent] = useState(false);
 
   const contactFormData = [
@@ -38,6 +39,8 @@ export function ContactForm() {
       as: "textarea",
     },
   ];
+
+  const contactService = ["Irrigation", "Landscaping", "Retaining Wall"];
 
   const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -71,28 +74,26 @@ export function ContactForm() {
     const contactForm = event.target;
 
     const isValid = validateForm();
-    let userData = [];
 
     if (isValid) {
       contactForm.contact_number.value = (Math.random() * 100000) | 0;
 
       try {
-        emailjs.init("OFERgPtPZrXndL-iq");
+        emailjs.init("wIko9PMJ1JvlpnmbP");
 
-        const response = await emailjs.sendForm(
-          "service_pb0eohg",
-          "template_qq9bab7",
-          contactForm
+        // Extract the selected services
+        const selectedServices = contactService.filter((service) =>
+          service_type.includes(service)
         );
 
-        userData.push({
-          userName: user_name,
-          userEmail: user_email,
-          userPhone: user_phone,
-          contactNumber: contactForm.contact_number.value,
-        });
+        // Include the selected services in the form data
+        contactForm.service_type.value = selectedServices.join(", ");
 
-        sessionStorage.setItem("userInput", JSON.stringify(userData));
+        const response = await emailjs.sendForm(
+          "service_qffbaol",
+          "template_vsx1wdc",
+          contactForm
+        );
 
         setMessageSent(true);
 
@@ -100,9 +101,10 @@ export function ContactForm() {
         setUser_email("");
         setUser_phone("");
         setMessage("");
+        setService_type([]);
 
         await delay(1000);
-        window.location.href = "/more-info";
+        window.location.href = "/";
       } catch (error) {
         console.error("FAILED...", error);
         alert("Message not sent!");
@@ -117,7 +119,7 @@ export function ContactForm() {
       <Form
         className="d-flex align-items-center flex-column w-50"
         id="contact-form"
-        onSubmit={handleSubmit} // Add onSubmit handler
+        onSubmit={handleSubmit}
       >
         <input type="hidden" name="contact_number" />
         {contactFormData.map((item) => (
@@ -163,10 +165,38 @@ export function ContactForm() {
               as={item.as}
             />
             {formErrors[item.name] && (
-              <div className={styles.errorMessage}>{formErrors[item.name]}</div>
+              <div className={styles.errorMessage}>
+                {" - "}
+                {formErrors[item.name]}
+              </div>
             )}
           </InputGroup>
         ))}
+        <Form.Text className="fw-bold fs-6 mb-2" muted>
+          Select the services you wish to be contacted for:
+        </Form.Text>
+        {contactService.map((type) => (
+          <div key={type} className="mb-3">
+            <Form.Check
+              type="checkbox"
+              id={type}
+              label={type}
+              value={service_type.includes(type)} // Check if the service is selected
+              onChange={() => {
+                if (service_type.includes(type)) {
+                  // If already selected, remove it
+                  setService_type(
+                    service_type.filter((selectedType) => selectedType !== type)
+                  );
+                } else {
+                  // If not selected, add it
+                  setService_type([...service_type, type]);
+                }
+              }}
+            />
+          </div>
+        ))}
+        <input type="hidden" name="service_type" />
 
         <Button type="submit" className="fw-bold w-25 mt-3" variant="dark">
           SEND
