@@ -47,6 +47,7 @@ export function NavBar() {
             Services
           </Dropdown.Toggle>
           <Dropdown.Menu>
+            <Dropdown.Item href="/plumbing">Plumbing</Dropdown.Item>
             <Dropdown.Item href="/irrigation">Irrigation</Dropdown.Item>
             <Dropdown.Item href="/landscaping">Landscaping</Dropdown.Item>
             <Dropdown.Item href="/retaining-wall">Retaining Wall</Dropdown.Item>

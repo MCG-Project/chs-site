@@ -40,7 +40,12 @@ export function ContactForm() {
     },
   ];
 
-  const contactService = ["Irrigation", "Landscaping", "Retaining Wall"];
+  const contactService = [
+    "Plumbing",
+    "Irrigation",
+    "Landscaping",
+    "Retaining Wall",
+  ];
 
   const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 

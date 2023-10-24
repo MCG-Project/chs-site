@@ -92,4 +92,33 @@ export const serviceData = [
     secondaryContent:
       "Retaining walls not only serve a practical purpose but also elevate the beauty of your property. Whether you need a small garden wall or a larger retaining structure, ensure you have the expertise to bring your vision to reality.",
   },
+  // plumbing
+  {
+    title: "Plumbing",
+    altImage: "Plumbing",
+    mainContent:
+      "Experience reliable plumbing solutions with a team of experienced plumbers. From fixing leaks to installing new plumbing fixtures, comprehensive plumbing services cover everything you need for a well-functioning home or business.",
+    listContent: [
+      {
+        title: "Plumbing Repairs: ",
+        content: "Timely repairs for leaks, clogs, and other plumbing issues.",
+      },
+      {
+        title: "Fixture Installation: ",
+        content:
+          "Upgrade your property with modern plumbing fixtures and appliances.",
+      },
+      {
+        title: "Drain Cleaning: ",
+        content:
+          "Maintain clear and efficient drainage systems with expert services.",
+      },
+      {
+        title: "Emergency Response: ",
+        content: "We're here to tackle plumbing emergencies around the clock.",
+      },
+    ],
+    secondaryContent:
+      "Plumbing services are designed to keep your water and drainage systems in peak condition. Resolve your plumbing concerns promptly and professionally, ensuring your comfort and peace of mind.",
+  },
 ];

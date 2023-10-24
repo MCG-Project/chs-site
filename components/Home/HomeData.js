@@ -2,14 +2,14 @@ export const homeMainData = [
   {
     titleContent: "Indoor Home Services",
     textContent:
-      "Contact professional irrigation experts in the CSRA to help with your irrigation needs, whether installing new sprinklers or adjusting your current ones to installing French drains.",
+      "Contact professional indoor home service experts in the CSRA to help with your electrical, plumbing, or other home service needs.",
     imageAlt: "Image by Peggychoucair from Pixabay",
     divColor: "",
   },
   {
     titleContent: "Outdoor Home Services",
     textContent:
-      "Contact professional landscaping experts in the CSRA to help tidy up your lawn, build a retaining wall, or anything you can dream up.",
+      "Contact professional outdoor home service experts in the CSRA to help with your irrigation, retaining walls, landscaping, or other home service needs.",
     imageAlt: "Image by Peggychoucair from Pixabay",
     divColor: { backgroundColor: "#CD5B45" },
   },
