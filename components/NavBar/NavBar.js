@@ -8,7 +8,7 @@ import {
   NavLink,
 } from "react-bootstrap";
 import Image from "next/image";
-import LogoBlueBG from "../../public/Images/LogoBlueBG.png";
+import Logo from "../../public/Images/Logo.png";
 import styles from "../../styles/NavBar.module.css";
 
 export function NavBar() {
@@ -28,12 +28,12 @@ export function NavBar() {
     <Navbar className="sticky-top" id={styles.navbar}>
       <Container className="hstack gap-3">
         <Navbar.Brand href="/">
-          <Image alt="ckm logo" src={LogoBlueBG} id={styles.logo}></Image>
+          <Image alt="georigialina logo" src={Logo} id={styles.logo}></Image>
         </Navbar.Brand>
 
         <Nav className="ms-auto fs-6 fw-bold">
-          <Nav.Link href="/what-we-do" id={styles.link}>
-            What We Do
+          <Nav.Link href="/" id={styles.link}>
+            Home
           </Nav.Link>
         </Nav>
         <ColoredLine />
@@ -47,8 +47,10 @@ export function NavBar() {
             Services
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="/property-sales">Property Sales</Dropdown.Item>
-            <Dropdown.Item href="/foreclosures">foreclosures</Dropdown.Item>
+            <Dropdown.Item href="/plumbing">Plumbing</Dropdown.Item>
+            <Dropdown.Item href="/irrigation">Irrigation</Dropdown.Item>
+            <Dropdown.Item href="/landscaping">Landscaping</Dropdown.Item>
+            <Dropdown.Item href="/retaining-wall">Retaining Wall</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <ColoredLine />

@@ -3,33 +3,21 @@
 }
 
 #navbar {
-  background-color: #1c2850;
+  background-color: #fff;
   padding: 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 #logo {
-  height: 4rem;
-  width: 5rem;
+  height: 2.5rem;
+  width: 15rem;
 }
 
 #link {
-  color: whitesmoke;
+  color: #444654;
 }
 
 #link:hover {
-  background-color: #4c546c;
+  background-color: #ff4040;
   border-radius: 10px;
-}
-
-#dropdown-link:hover {
-  background-color: #4c546c;
-  border-radius: 10px;
-  padding: 8px;
-}
-
-#input-text {
-  background-color: #1c2850;
-  border: #1c2850;
-  color: white;
 }

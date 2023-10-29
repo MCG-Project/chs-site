@@ -1,6 +1,6 @@
 #footerLogo {
-  height: 3rem;
-  width: 4rem;
+  height: 2rem;
+  width: 12rem;
   margin-left: 4rem;
 }
 
@@ -16,8 +16,4 @@
   text-align: center;
   width: 100%;
   padding: 5rem;
-}
-
-.main-blue-bg {
-  background-color: #1c2850;
 }
