@@ -1,5 +1,6 @@
 import React from "react";
-import Head from "next/head";
+import { MetaTag } from "../components/MetaTag/MetaTag";
+import { MetaTagSEOData } from "../components/MetaTag/SEOData";
 import IrrigationImage from "../public/Images/IrrigationImage.jpg";
 import { faTrowel } from "@fortawesome/free-solid-svg-icons";
 import { Services } from "../components/Services/Services";
@@ -8,10 +9,14 @@ import { serviceData } from "../components/Services/ServicesData";
 export default function Irrigation() {
   return (
     <>
-      <Head>
-        <title>GeorgiaLina | Irrigation</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaTag
+        tab={MetaTagSEOData[1].tab}
+        description={MetaTagSEOData[1].description}
+        keywords={MetaTagSEOData[1].keywords}
+        socialTitle={MetaTagSEOData[1].socialTitle}
+        socialDescription={MetaTagSEOData[1].socialDescription}
+        socialImage={IrrigationImage}
+      />
 
       <Services
         title={serviceData[0].title}

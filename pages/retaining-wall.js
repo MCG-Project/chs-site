@@ -1,5 +1,6 @@
 import React from "react";
-import Head from "next/head";
+import { MetaTag } from "../components/MetaTag/MetaTag";
+import { MetaTagSEOData } from "../components/MetaTag/SEOData";
 import RetainingWallImage from "../public/Images/RetainingWallImage.jpg";
 import { faTrowel } from "@fortawesome/free-solid-svg-icons";
 import { Services } from "../components/Services/Services";
@@ -8,10 +9,14 @@ import { serviceData } from "../components/Services/ServicesData";
 export default function RetainingWall() {
   return (
     <>
-      <Head>
-        <title>GeorgiaLina | Landscaping</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaTag
+        tab={MetaTagSEOData[0].tab}
+        description={MetaTagSEOData[0].description}
+        keywords={MetaTagSEOData[0].keywords}
+        socialTitle={MetaTagSEOData[0].socialTitle}
+        socialDescription={MetaTagSEOData[0].socialDescription}
+        socialImage={RetainingWallImage}
+      />
       <Services
         title={serviceData[2].title}
         image={RetainingWallImage}

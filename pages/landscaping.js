@@ -1,5 +1,6 @@
 import React from "react";
-import Head from "next/head";
+import { MetaTag } from "../components/MetaTag/MetaTag";
+import { MetaTagSEOData } from "../components/MetaTag/SEOData";
 import LandscapingImage from "../public/Images/LandscapingImage.png";
 import { faTrowel } from "@fortawesome/free-solid-svg-icons";
 import { Services } from "../components/Services/Services";
@@ -8,10 +9,14 @@ import { serviceData } from "../components/Services/ServicesData";
 export default function Landscaping() {
   return (
     <>
-      <Head>
-        <title>GeorgiaLina | Landscaping</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaTag
+        tab={MetaTagSEOData[2].tab}
+        description={MetaTagSEOData[2].description}
+        keywords={MetaTagSEOData[2].keywords}
+        socialTitle={MetaTagSEOData[2].socialTitle}
+        socialDescription={MetaTagSEOData[2].socialDescription}
+        socialImage={LandscapingImage}
+      />
       <Services
         title={serviceData[1].title}
         image={LandscapingImage}

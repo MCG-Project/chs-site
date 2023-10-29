@@ -3,7 +3,7 @@ export const homeMainData = [
     titleContent: "Indoor Home Services",
     textContent:
       "Contact professional indoor home service experts in the CSRA to help with your electrical, plumbing, or other home service needs.",
-    imageAlt: "Image by Peggychoucair from Pixabay",
+    imageAlt: "Image by BrianCarlin from Pixabay",
     divColor: "",
   },
   {

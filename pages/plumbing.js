@@ -1,6 +1,7 @@
 import React from "react";
-import Head from "next/head";
-import LandscapingImage from "../public/Images/LandscapingImage.png";
+import { MetaTag } from "../components/MetaTag/MetaTag";
+import { MetaTagSEOData } from "../components/MetaTag/SEOData";
+import PlumbingImage from "../public/Images/PlumbingImage.jpg";
 import { faHammer } from "@fortawesome/free-solid-svg-icons";
 import { Services } from "../components/Services/Services";
 import { serviceData } from "../components/Services/ServicesData";
@@ -8,13 +9,17 @@ import { serviceData } from "../components/Services/ServicesData";
 export default function Plumbing() {
   return (
     <>
-      <Head>
-        <title>GeorgiaLina | Plumbing</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaTag
+        tab={MetaTagSEOData[3].tab}
+        description={MetaTagSEOData[3].description}
+        keywords={MetaTagSEOData[3].keywords}
+        socialTitle={MetaTagSEOData[3].socialTitle}
+        socialDescription={MetaTagSEOData[3].socialDescription}
+        socialImage={PlumbingImage}
+      />
       <Services
         title={serviceData[3].title}
-        image={LandscapingImage}
+        image={PlumbingImage}
         icon={faHammer}
         altImage={serviceData[3].altImage}
         mainContent={serviceData[3].mainContent}

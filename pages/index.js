@@ -1,23 +1,24 @@
 import { HomeMain } from "../components/Home/HomeMain";
-// import { HomeVideo } from "../components/Home/HomeVideo";
-// import { HomeCard } from "../components/Home/HomeCard";
-// import { HomeAbout } from "../components/Home/HomeAbout";
 import { homeMainData } from "../components/Home/HomeData";
-
-import Head from "next/head";
+import { MetaTag } from "../components/MetaTag/MetaTag";
+import { MetaTagSEOData } from "../components/MetaTag/SEOData";
 import Image from "next/image";
 import HomeHeroImage from "../public/Images/HomeHeroImage.jpg";
-import IrrigationImage from "../public/Images/IrrigationImage.jpg";
+import IndoorServicesImage from "../public/Images/IndoorServicesImage.jpg";
 import Garden from "../public/Images/Garden.jpg";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>GeorigaLina | Home</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MetaTag
+        tab={MetaTagSEOData[0].tab}
+        description={MetaTagSEOData[0].description}
+        keywords={MetaTagSEOData[0].keywords}
+        socialTitle={MetaTagSEOData[0].socialTitle}
+        socialDescription={MetaTagSEOData[0].socialDescription}
+        socialImage={HomeHeroImage}
+      />
       <div className="d-flex align-items-center flex-column position-relative">
         <Image
           src={HomeHeroImage}
@@ -59,7 +60,7 @@ export default function Home() {
       </div>
       <HomeMain
         titleContent={homeMainData[0].titleContent}
-        image={IrrigationImage}
+        image={IndoorServicesImage}
         imageAlt={homeMainData[0].imageAlt}
         textContent={homeMainData[0].textContent}
       />
