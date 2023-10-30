@@ -1,12 +1,15 @@
 import { HomeMain } from "../components/Home/HomeMain";
-import { homeMainData } from "../components/Home/HomeData";
+import { HomeMap } from "../components/Home/HomeMap";
+import { homeMainData, homeMapData } from "../components/Home/HomeData";
 import { MetaTag } from "../components/MetaTag/MetaTag";
 import { MetaTagSEOData } from "../components/MetaTag/SEOData";
 import Image from "next/image";
 import HomeHeroImage from "../public/Images/HomeHeroImage.jpg";
+import ServiceMap from "../public/Images/ServiceMap.png";
 import IndoorServicesImage from "../public/Images/IndoorServicesImage.jpg";
 import Garden from "../public/Images/Garden.jpg";
 import styles from "../styles/Home.module.css";
+import { Container } from "react-bootstrap";
 
 export default function Home() {
   return (
@@ -35,7 +38,7 @@ export default function Home() {
           style={{
             color: "#FFF",
             position: "absolute",
-            top: "20%",
+            top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
             zIndex: 1,
@@ -43,37 +46,36 @@ export default function Home() {
         >
           GeorgiaLina Services
         </h1>
-        <h3
-          className="mb-3 fw-bold text-center"
-          style={{
-            color: "#FFF",
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            zIndex: 1,
-          }}
-        >
-          Helping Those in Georgia and South Carolina find Home and Commercial
-          Services
-        </h3>
       </div>
+      <Container className="w-75 mt-3 mb-5">
+        <p className="fs-4 text-center">
+          Helping people in Georgia and South Carolina find Indoor and Outdoor
+          Services because finding services shouldn't be hard. Let{" "}
+          <strong>experts</strong> help you find the right people for the right
+          job!
+        </p>
+      </Container>
+      <HomeMap
+        titleContent={homeMapData.titleContent}
+        image={ServiceMap}
+        imageAlt={homeMapData.imageAlt}
+        textContent={homeMapData.textContent}
+        list1Content={homeMapData.georgiaCities}
+        list2Content={homeMapData.carolinaCities}
+      />
       <HomeMain
         titleContent={homeMainData[0].titleContent}
         image={IndoorServicesImage}
         imageAlt={homeMainData[0].imageAlt}
         textContent={homeMainData[0].textContent}
+        divColor={homeMainData[0].divColor}
       />
       <HomeMain
         titleContent={homeMainData[1].titleContent}
         image={Garden}
         imageAlt={homeMainData[1].imageAlt}
         textContent={homeMainData[1].textContent}
-        divColor={homeMainData[1].divColor}
       />
-      {/* <HomeVideo />
-      <HomeCard />
-      <HomeAbout /> */}
     </>
   );
 }
