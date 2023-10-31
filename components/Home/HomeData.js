@@ -11,7 +11,7 @@ export const homeMainData = [
     textContent:
       "Contact professional outdoor home service experts in the CSRA to help with your irrigation, retaining walls, landscaping, or other home service needs.",
     imageAlt: "Image by Peggychoucair from Pixabay",
-    divColor: { backgroundColor: "#FFDAB9" },
+    divColor: "",
   },
 ];
 
