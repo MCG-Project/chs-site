@@ -32,7 +32,7 @@ export function Services(props) {
           {props.listContent.map((item) => (
             <div className="d-flex flex-row">
               <FontAwesomeIcon icon={props.icon} className={styles.icon} />
-              <ListGroup.Item className={styles.listItem}>
+              <ListGroup.Item key={item} className={styles.listItem}>
                 <strong> {item.title}</strong>
                 {item.content}
               </ListGroup.Item>
