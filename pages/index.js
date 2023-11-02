@@ -1,15 +1,16 @@
+import React from "react";
+import { NavBar } from "../components/NavBar/NavBar";
 import { HomeMain } from "../components/Home/HomeMain";
 import { HomeMap } from "../components/Home/HomeMap";
 import { homeMainData, homeMapData } from "../components/Home/HomeData";
 import { MetaTag } from "../components/MetaTag/MetaTag";
 import { MetaTagSEOData } from "../components/MetaTag/SEOData";
-import Image from "next/image";
 import HomeHeroImage from "../public/Images/HomeHeroImage.jpg";
 import ServiceMap from "../public/Images/ServiceMap.png";
 import IndoorServicesImage from "../public/Images/IndoorServicesImage.jpg";
 import Garden from "../public/Images/Garden.jpg";
-import styles from "../styles/Home.module.css";
-import { Container } from "react-bootstrap";
+import { HomeIntro } from "../components/Home/HomeIntro";
+import { Footer } from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -22,39 +23,9 @@ export default function Home() {
         socialDescription={MetaTagSEOData[0].socialDescription}
         socialImage={HomeHeroImage}
       />
-      <div className="d-flex align-items-center flex-column position-relative">
-        <Image
-          src={HomeHeroImage}
-          className={styles.cardBoxOverlay}
-          alt="Image by Md Nurunnobi from Pixabay"
-          style={{
-            width: "100%",
-            height: "70vh",
-            objectFit: "cover",
-          }}
-        />
-        <h1
-          className="mt-3 fw-bold"
-          style={{
-            color: "#FFF",
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            zIndex: 1,
-          }}
-        >
-          GeorgiaLina Services
-        </h1>
-      </div>
-      <Container className="w-75 mt-3 mb-5">
-        <p className="fs-4 text-center">
-          Helping people in Georgia and South Carolina find Indoor and Outdoor
-          Services because finding services shouldn't be hard. Let{" "}
-          <strong>experts</strong> help you find the right people for the right
-          job!
-        </p>
-      </Container>
+
+      <NavBar />
+      <HomeIntro />
       <HomeMap
         titleContent={homeMapData.titleContent}
         image={ServiceMap}
@@ -76,6 +47,7 @@ export default function Home() {
         imageAlt={homeMainData[1].imageAlt}
         textContent={homeMainData[1].textContent}
       />
+      <Footer />
     </>
   );
 }
