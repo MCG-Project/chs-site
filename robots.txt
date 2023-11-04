@@ -1,4 +1,5 @@
+# Allow all crawlers
 User-agent: *
-Disallow:
+Allow: /
 
 Sitemap: https://georgialinaservices.com/sitemap.xml
