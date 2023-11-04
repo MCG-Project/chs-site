@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-        <url>
-            <loc>https://georgialinaservices.com/</loc>
-            <changefreq>daily</changefreq>
-        </url>
-        <url>
-            <loc>https://georgialinaservices.com/contact</loc>
-            <changefreq>daily</changefreq>
-        </url>
-        <url>
-            <loc>https://georgialinaservices.com/landscaping</loc>
-            <changefreq>daily</changefreq>
-        </url>
-        <url>
-            <loc>https://georgialinaservices.com/plumbing</loc>
-            <changefreq>daily</changefreq>
-        </url>
-        <url>
-            <loc>https://georgialinaservices.com/retaining-wall</loc>
-            <changefreq>daily</changefreq>
-        </url>
-    </urlset>
-</xml>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://georgialinaservices.com/</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://georgialinaservices.com/contact</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://georgialinaservices.com/landscaping</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://georgialinaservices.com/plumbing</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://georgialinaservices.com/retaining-wall</loc>
+        <changefreq>daily</changefreq>
+    </url>
+</urlset>
