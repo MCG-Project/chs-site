@@ -1,5 +1,4 @@
 import React from "react";
-import { NavBar } from "../components/NavBar/NavBar";
 import { HomeMain } from "../components/Home/HomeMain";
 import { HomeMap } from "../components/Home/HomeMap";
 import { homeMainData, homeMapData } from "../components/Home/HomeData";
@@ -10,7 +9,6 @@ import ServiceMap from "../public/Images/ServiceMap.png";
 import IndoorServicesImage from "../public/Images/IndoorServicesImage.jpg";
 import Garden from "../public/Images/Garden.jpg";
 import { HomeIntro } from "../components/Home/HomeIntro";
-import { Footer } from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -24,7 +22,6 @@ export default function Home() {
         socialImage={HomeHeroImage}
       />
 
-      <NavBar />
       <HomeIntro />
       <HomeMap
         titleContent={homeMapData.titleContent}
@@ -47,7 +44,6 @@ export default function Home() {
         imageAlt={homeMainData[1].imageAlt}
         textContent={homeMainData[1].textContent}
       />
-      <Footer />
     </>
   );
 }
