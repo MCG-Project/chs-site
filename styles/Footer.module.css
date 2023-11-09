@@ -4,11 +4,6 @@
   margin-left: 4rem;
 }
 
-#footerRight {
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
 #footerContainer {
   background-color: whitesmoke;
   height: 4.5rem;
@@ -16,4 +11,20 @@
   text-align: center;
   width: 100%;
   padding: 5rem;
+}
+
+/* Mobile */
+#mobileFooterContainer {
+  background-color: whitesmoke;
+  height: 4.5rem;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  /* padding-top: 5rem; */
+}
+
+#mobileFooterLogo {
+  height: 2rem;
+  width: 12rem;
+  /* margin-left: 4rem; */
 }
