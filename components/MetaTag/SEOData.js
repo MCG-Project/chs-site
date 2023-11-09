@@ -2,7 +2,8 @@ export const MetaTagSEOData = [
   // Home = 0
   {
     tab: "Home",
-    description: "",
+    description:
+      "GeorgiaLina is here to help you transform your space with Indoor Services and Outdoor Services. The CSRA's go-to for landscaping, retaining walls, plumbing, and irrigation solutions. Elevate your surroundings indoors and outoors with an expert touch.",
     keywords: [
       "CSRA Indoor Services",
       "Augusta Landscaping",
@@ -38,12 +39,14 @@ export const MetaTagSEOData = [
       "retaining wall drainage",
     ],
     socialTitle: "GeorgiaLina - Home",
-    socialDescription: "",
+    socialDescription:
+      "GeorgiaLina is here to help you transform your space with Indoor Services and Outdoor Services. The CSRA's go-to for landscaping, retaining walls, plumbing, and irrigation solutions. Elevate your surroundings indoors and outoors with an expert touch.",
   },
   //   irrigation = 1
   {
     tab: "Irrigation",
-    description: "",
+    description:
+      "Achieve lush landscapes with Augusta Irrigation. From drip systems to smart irrigation, we specialize in installation, repair, and maintenance. Your green oasis starts here.",
     keywords: [
       "drip irrigation",
       "sprinkler system installation",
@@ -58,12 +61,14 @@ export const MetaTagSEOData = [
       "irrigation consultation",
     ],
     socialTitle: "GeorgiaLina - Home",
-    socialDescription: "",
+    socialDescription:
+      "Achieve lush landscapes with Augusta Irrigation. From drip systems to smart irrigation, we specialize in installation, repair, and maintenance. Your green oasis starts here.",
   },
   //   landscaping = 2
   {
     tab: "Landscaping",
-    description: "",
+    description:
+      "Discover the beauty of CSRA Landscaping. Experts span landscape design, hardscaping, lawn care, and more. Elevate your outdoor space with expertise in Augusta and beyond.",
     keywords: [
       "outdoor landscaping",
       "landscape design",
@@ -74,12 +79,14 @@ export const MetaTagSEOData = [
       "tree trimming",
     ],
     socialTitle: "GeorgiaLina - Home",
-    socialDescription: "",
+    socialDescription:
+      "Discover the beauty of CSRA Landscaping. Experts span landscape design, hardscaping, lawn care, and more. Elevate your outdoor space with expertise in Augusta and beyond.",
   },
   //   Plumbing = 3
   {
     tab: "Plumbing",
-    description: "",
+    description:
+      "CSRA Indoor Services ensures worry-free plumbing. From repairs to installations, leak detection to water heaters, we've got Augusta and other areas covered. Trust us for seamless indoor water solutions.",
     keywords: [
       "indoor plumbing",
       "plumbing repair",
@@ -90,12 +97,14 @@ export const MetaTagSEOData = [
       "drain cleaning",
     ],
     socialTitle: "GeorgiaLina - Home",
-    socialDescription: "",
+    socialDescription:
+      "CSRA Indoor Services ensures worry-free plumbing. From repairs to installations, leak detection to water heaters, we've got Augusta and other areas covered. Trust us for seamless indoor water solutions.",
   },
   //   retaining Wall = 4
   {
     tab: "Retaining Wall",
-    description: "",
+    description:
+      "Structural elegance in stone and block. CSRA's retaining wall solutions redefine landscapes. From construction to repair, choose from our experts for functional and decorative retaining walls.",
     keywords: [
       "retaining wall construction",
       "block wall installation",
@@ -105,14 +114,27 @@ export const MetaTagSEOData = [
       "retaining wall drainage",
     ],
     socialTitle: "GeorgiaLina - Home",
-    socialDescription: "",
+    socialDescription:
+      "Structural elegance in stone and block. CSRA's retaining wall solutions redefine landscapes. From construction to repair, choose from our experts for functional and decorative retaining walls.",
   },
   //   Contact Us = 5
   {
     tab: "Contact Us",
-    description: "",
-    keywords: ["Augusta,", "Evans", "Grovetown", "Appling", "CSRA"],
+    description:
+      "Connect with us for unparalleled indoor and outdoor services in the CSRA. From plumbing to landscaping, to retaining walls, and irrigation, our team is ready to bring your vision to life. Reach out today!",
+    keywords: [
+      "Augusta,",
+      "Evans",
+      "Grovetown",
+      "Appling",
+      "CSRA",
+      "Retaining Wall",
+      "Plumbing",
+      "Landscaping",
+      "Irrigation",
+    ],
     socialTitle: "GeorgiaLina - Home",
-    socialDescription: "",
+    socialDescription:
+      "Connect with us for unparalleled indoor and outdoor services in the CSRA. From plumbing to landscaping, to retaining walls, and irrigation, our team is ready to bring your vision to life. Reach out today!",
   },
 ];
