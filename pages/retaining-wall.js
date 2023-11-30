@@ -25,6 +25,8 @@ export default function RetainingWall() {
         mainContent={serviceData[2].mainContent}
         listContent={serviceData[2].listContent}
         secondaryContent={serviceData[2].secondaryContent}
+        secondaryListContent={serviceData[2].secondaryListContent}
+        contactStatement={serviceData[2].contactStatement}
       />
     </>
   );

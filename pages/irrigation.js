@@ -20,11 +20,13 @@ export default function Irrigation() {
       <Services
         title={serviceData[0].title}
         image={IrrigationImage}
-        altImage={serviceData[0].altImage}
         icon={faTrowel}
+        altImage={serviceData[0].altImage}
         mainContent={serviceData[0].mainContent}
         listContent={serviceData[0].listContent}
         secondaryContent={serviceData[0].secondaryContent}
+        secondaryListContent={serviceData[0].secondaryListContent}
+        contactStatement={serviceData[0].contactStatement}
       />
     </>
   );
