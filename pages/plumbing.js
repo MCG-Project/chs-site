@@ -25,6 +25,8 @@ export default function Plumbing() {
         mainContent={serviceData[3].mainContent}
         listContent={serviceData[3].listContent}
         secondaryContent={serviceData[3].secondaryContent}
+        secondaryListContent={serviceData[3].secondaryListContent}
+        contactStatement={serviceData[3].contactStatement}
       />
     </>
   );

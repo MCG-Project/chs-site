@@ -5,6 +5,7 @@ import useDeviceDetect from "../../utils/useDeviceDetect";
 import { Container, Button, ListGroup } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "../../styles/Services.module.css";
+import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
 
 export function Services(props) {
   const { isMobile } = useDeviceDetect();
@@ -23,25 +24,28 @@ export function Services(props) {
               objectFit: "cover",
             }}
           />
-          <Container className="">
-            <h1
-              className="mt-3 fw-bold text-center"
-              style={{
-                color: "#444654",
-              }}
-            >
-              {props.title}
-            </h1>
+          <h1
+            className="mt-3 fw-bold text-center"
+            style={{
+              color: "#444654",
+            }}
+          >
+            {props.title}
+          </h1>
 
+          <Container>
+            <p className="mt-4 fs-5">{props.mainContent}</p>
             <Container>
-              <p className="mt-4 fs-5">{props.mainContent}</p>
               <ListGroup className="d-flex m-auto mt-2">
                 {props.listContent.map((item) => (
-                  <div className="d-flex flex-row">
-                    <FontAwesomeIcon
-                      icon={props.icon}
-                      className={styles.mobileIcon}
-                    />
+                  <div className="d-flex flex-row align-items-center">
+                    <div>
+                      <FontAwesomeIcon
+                        icon={props.icon}
+                        className={styles.mobileIcon}
+                      />
+                    </div>
+
                     <ListGroup.Item key={item} className={styles.listItem}>
                       <strong> {item.title}</strong>
                       {item.content}
@@ -50,18 +54,43 @@ export function Services(props) {
                 ))}
               </ListGroup>
             </Container>
+          </Container>
 
+          <div className={styles.lightPeachBG}>
             <Container className="d-flex flex-column">
-              <p className="mt-4 fs-5">{props.secondaryContent}</p>
-
-              <Button
-                href="/contact"
-                className="m-auto fw-bold mt-4"
-                variant="dark"
-              >
-                Contact Us
-              </Button>
+              <p className="mt-4 fs-5 fw-bold text-center">
+                {props.secondaryContent}
+              </p>
+              <Container>
+                <ListGroup className="d-flex m-auto mt-2">
+                  {props.secondaryListContent.map((item) => (
+                    <div className="d-flex flex-row align-items-center">
+                      <div>
+                        <FontAwesomeIcon
+                          icon={faSquareCheck}
+                          className={styles.checkIcon}
+                        />
+                      </div>
+                      <ListGroup.Item key={item} className={styles.listItem}>
+                        <strong> {item.title}</strong>
+                        {item.content}
+                      </ListGroup.Item>
+                    </div>
+                  ))}
+                </ListGroup>
+              </Container>
             </Container>
+          </div>
+          <Container className="d-flex flex-column">
+            <p className="text-center mt-4 fs-6">{props.contactStatement}</p>
+
+            <Button
+              href="/contact"
+              className="w-75 m-auto fw-bold mt-2"
+              variant="dark"
+            >
+              Contact Us
+            </Button>
           </Container>
         </div>
       ) : (
@@ -89,8 +118,10 @@ export function Services(props) {
           <p className="w-75 mt-4 text-center fs-5">{props.mainContent}</p>
           <ListGroup className="w-50 mt-2">
             {props.listContent.map((item) => (
-              <div className="d-flex flex-row">
-                <FontAwesomeIcon icon={props.icon} className={styles.icon} />
+              <div className="d-flex flex-row align-items-center">
+                <div>
+                  <FontAwesomeIcon icon={props.icon} className={styles.icon} />
+                </div>
                 <ListGroup.Item key={item} className={styles.listItem}>
                   <strong> {item.title}</strong>
                   {item.content}
@@ -98,7 +129,29 @@ export function Services(props) {
               </div>
             ))}
           </ListGroup>
-          <p className="w-75 mt-4 text-center fs-5">{props.secondaryContent}</p>
+          <div className={styles.lightPeachBG}>
+            <p className="mt-4 text-center fs-5 fw-bold">
+              {props.secondaryContent}
+            </p>
+            <ListGroup className="w-50 mt-2 m-auto">
+              {props.secondaryListContent.map((item) => (
+                <div className="d-flex flex-row align-items-center">
+                  <div>
+                    <FontAwesomeIcon
+                      icon={faSquareCheck}
+                      className={styles.checkIcon}
+                    />
+                  </div>
+                  <ListGroup.Item key={item} className={styles.listItem}>
+                    <strong> {item.title}</strong>
+                    {item.content}
+                  </ListGroup.Item>
+                </div>
+              ))}
+            </ListGroup>
+          </div>
+          <p className="w-50 text-center mt-4 fs-6">{props.contactStatement}</p>
+
           <Button href="/contact" className="fw-bold" variant="dark">
             Contact Us
           </Button>

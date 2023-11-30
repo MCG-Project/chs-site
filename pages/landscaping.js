@@ -25,6 +25,8 @@ export default function Landscaping() {
         mainContent={serviceData[1].mainContent}
         listContent={serviceData[1].listContent}
         secondaryContent={serviceData[1].secondaryContent}
+        secondaryListContent={serviceData[1].secondaryListContent}
+        contactStatement={serviceData[1].contactStatement}
       />
     </>
   );
