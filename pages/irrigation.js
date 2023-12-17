@@ -16,6 +16,7 @@ export default function Irrigation() {
         socialTitle={MetaTagSEOData[1].socialTitle}
         socialDescription={MetaTagSEOData[1].socialDescription}
         socialImage={IrrigationImage}
+        canonical={MetaTagSEOData[1].canonical}
       />
       <Services
         title={serviceData[0].title}

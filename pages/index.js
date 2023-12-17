@@ -20,6 +20,7 @@ export default function Home() {
         socialTitle={MetaTagSEOData[0].socialTitle}
         socialDescription={MetaTagSEOData[0].socialDescription}
         socialImage={HomeHeroImage}
+        canonical={MetaTagSEOData[0].canonical}
       />
 
       <HomeIntro />

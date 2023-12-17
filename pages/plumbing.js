@@ -16,6 +16,7 @@ export default function Plumbing() {
         socialTitle={MetaTagSEOData[3].socialTitle}
         socialDescription={MetaTagSEOData[3].socialDescription}
         socialImage={PlumbingImage}
+        canonical={MetaTagSEOData[3].canonical}
       />
       <Services
         title={serviceData[3].title}

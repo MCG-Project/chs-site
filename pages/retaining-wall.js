@@ -16,6 +16,7 @@ export default function RetainingWall() {
         socialTitle={MetaTagSEOData[0].socialTitle}
         socialDescription={MetaTagSEOData[0].socialDescription}
         socialImage={RetainingWallImage}
+        canonical={MetaTagSEOData[0].canonical}
       />
       <Services
         title={serviceData[2].title}

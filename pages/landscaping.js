@@ -16,6 +16,7 @@ export default function Landscaping() {
         socialTitle={MetaTagSEOData[2].socialTitle}
         socialDescription={MetaTagSEOData[2].socialDescription}
         socialImage={LandscapingImage}
+        canonical={MetaTagSEOData[2].canonical}
       />
       <Services
         title={serviceData[1].title}

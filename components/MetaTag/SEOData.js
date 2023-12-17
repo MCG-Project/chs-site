@@ -2,6 +2,7 @@ export const MetaTagSEOData = [
   // Home = 0
   {
     tab: "Home",
+    url: "/",
     description:
       "Working with experts in plumbing, landscaping, lawn care, and more. Serving the CSRA to include Augusta and Evans, GA with top-notch services.",
     keywords: [
@@ -34,6 +35,7 @@ export const MetaTagSEOData = [
   //   irrigation = 1
   {
     tab: "Irrigation",
+    url: "/irrigation",
     description:
       "Leading CSRA experts in irrigation, French drain installation, and sprinkler system repair. Serving the CSRA to include Augusta and Evans, GA.",
     keywords: [
@@ -53,6 +55,7 @@ export const MetaTagSEOData = [
   //   landscaping = 2
   {
     tab: "Landscaping",
+    url: "/landscaping",
     description:
       "Leading CSRA experts in landscaping, gutter cleaning, lawn care services, and tree trimming. Serving the CSRA to include Augusta and Evans, GA.",
     keywords: [
@@ -75,6 +78,7 @@ export const MetaTagSEOData = [
   //   Plumbing = 3
   {
     tab: "Plumbing",
+    url: "/plumbing",
     description:
       "Leading CSRA experts in plumbing services. Serving the CSRA to include Augusta and Evans, GA.",
     keywords: ["CSRA", "plumbing augusta", "plumbing evans ga"],
@@ -85,6 +89,7 @@ export const MetaTagSEOData = [
   //   retaining Wall = 4
   {
     tab: "Retaining Wall",
+    url: "/retaining-wall",
     description:
       "Leading CSRA experts in retaining walls. Serving the CSRA to include Augusta and Evans, GA.",
     keywords: ["CSRA", "retaining wall augusta ga"],
@@ -95,6 +100,7 @@ export const MetaTagSEOData = [
   //   Contact Us = 5
   {
     tab: "Contact Us",
+    url: "/contact",
     description:
       "Contact us services in the CSRA,from plumbing to landscaping, to retaining walls, and irrigation.",
     keywords: [
