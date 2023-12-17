@@ -11,7 +11,7 @@ export function HomeMap(props) {
     <>
       {isMobile ? (
         <div className="d-flex flex-column pb-5" style={props.divColor}>
-          <p className="fs-2 fw-bold text-center">Serving the CSRA</p>
+          <h2 className="fw-bold text-center">Serving the CSRA</h2>
 
           <Container className="d-flex">
             <Image
@@ -47,7 +47,7 @@ export function HomeMap(props) {
         // Browser
 
         <div className="d-flex flex-column pt-3 pb-5" style={props.divColor}>
-          <p className="fs-2 fw-bold text-center">Serving the CSRA</p>
+          <h2 className="fw-bold text-center">Serving the CSRA</h2>
 
           <Container className="d-flex justify-content-center align-items-center">
             <Image

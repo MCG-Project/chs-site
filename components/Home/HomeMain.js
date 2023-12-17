@@ -31,7 +31,7 @@ export function HomeMain(props) {
       ) : (
         // Browser
         <div className="d-flex flex-column p-5" style={props.divColor}>
-          <p className="fs-2 fw-bold text-center">{props.titleContent}</p>
+          <h2 className="fw-bold text-center mb-3">{props.titleContent}</h2>
           <div className="d-flex align-items-center">
             <Container className="d-flex justify-content-around">
               <Image

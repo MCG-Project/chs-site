@@ -58,9 +58,9 @@ export function Services(props) {
 
           <div className={styles.lightPeachBG}>
             <Container className="d-flex flex-column">
-              <p className="mt-4 fs-5 fw-bold text-center">
+              <h3 className="mt-4 fw-bold text-center">
                 {props.secondaryContent}
-              </p>
+              </h3>
               <Container>
                 <ListGroup className="d-flex m-auto mt-2">
                   {props.secondaryListContent.map((item) => (
@@ -130,9 +130,9 @@ export function Services(props) {
             ))}
           </ListGroup>
           <div className={styles.lightPeachBG}>
-            <p className="mt-4 text-center fs-5 fw-bold">
+            <h3 className="mt-4 text-center fw-bold">
               {props.secondaryContent}
-            </p>
+            </h3>
             <ListGroup className="w-50 mt-2 m-auto">
               {props.secondaryListContent.map((item) => (
                 <div className="d-flex flex-row align-items-center">
