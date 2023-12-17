@@ -110,7 +110,7 @@ export function ContactForm() {
         setMessage("");
         setService_type([]);
 
-        await delay(1000);
+        await delay(100000);
         window.location.href = "/";
       } catch (error) {
         console.error("FAILED...", error);

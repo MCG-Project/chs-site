@@ -4,58 +4,56 @@ export const serviceData = [
     title: "Irrigation",
     altImage: "Irrigation Image by Peggychoucair from Pixabay",
     mainContent:
-      "Welcome to GeorgiaLina Services, your trusted partner for top-notch irrigation solutions. Our team of skilled professionals is dedicated to providing a wide range of services to address all your irrigation needs.",
-
+      "Welcome to GeorgiaLina Services, your trusted partner for top-notch irrigation solutions. Our team of skilled professionals is dedicated to providing a wide range of services to address all your irrigation needs. Whether you're in the CSRA region, specifically Augusta and Evans, GA, our expertise extends to irrigation systems, french drain installation, and sprinkler system repair. As the irrigation specialists of Augusta, our experts pride themselves on delivering high-quality solutions tailored to your unique requirements.",
     listContent: [
       {
         title: "Drip Irrigation: ",
         content:
-          "Drip irrigation systems are designed for precision watering, delivering water directly to the base of plants for optimal efficiency.",
+          "Precision watering with drip irrigation systems, serving the CSRA region, including Augusta and Evans, GA. Optimal efficiency for your plants.",
       },
       {
         title: "Sprinkler System Installation: ",
         content:
-          "Trust experts for professional installation of state-of-the-art sprinkler systems, tailored to the specific needs of your lawn or garden.",
+          "Professional installation of state-of-the-art sprinkler systems, tailored to Augusta and Evans, GA. Trust experts for your lawn or garden needs.",
       },
       {
         title: "Irrigation Repair: ",
         content:
-          "Facing issues with your current irrigation system? Skilled technicians are here to diagnose and repair any problems promptly.",
+          "Prompt diagnosis and repair of irrigation systems by skilled technicians ready to address any issues you face.",
       },
       {
         title: "Smart Irrigation: ",
         content:
-          "Explore the benefits of smart irrigation technology, allowing you to control and monitor your system remotely for water conservation and efficiency.",
+          "Experience the benefits of smart irrigation technology to control and monitor your system remotely for water conservation and efficiency.",
       },
       {
         title: "Irrigation Maintenance: ",
         content:
-          "Keep your system in top condition with regular maintenance services, ensuring optimal performance and preventing potential issues.",
+          "Ensure optimal performance with regular maintenance to revent potential issues and keep your system in top condition.",
       },
       {
         title: "Outdoor Irrigation: ",
         content:
-          "Extend the beauty of your landscape with outdoor irrigation solutions, customized to suit the unique features of your lawn and garden.",
+          "Customized outdoor irrigation solutions for the unique features of your lawn and garden in to enhance the beauty of your landscape.",
       },
       {
         title: "Lawn Sprinklers: ",
         content:
-          "Lawn sprinkler services are designed to provide even and efficient watering, keeping your grass green and healthy.",
+          "Efficient lawn sprinkler services to keep your grass green and healthy with even and effective watering.",
       },
       {
         title: "Garden Irrigation: ",
-        content:
-          "Ensure your garden thrives with specialized garden irrigation solutions, delivering the right amount of water to each plant.",
+        content: "Specialized garden irrigation solutions for thriving plants.",
       },
       {
         title: "Drip System Maintenance: ",
         content:
-          "Regular maintenance is key to the longevity of your drip irrigation system. Trust us to keep it in optimal condition.",
+          "Trust us for regular maintenance to ensure the longevity of your drip irrigation system.",
       },
       {
         title: "Irrigation System Design: ",
         content:
-          "Experts will work with you to design a customized irrigation system that meets the unique needs of your property.",
+          "Collaborate with experts to design a customized irrigation system meeting the unique needs of your property in Augusta and Evans, GA.",
       },
     ],
 
@@ -65,7 +63,7 @@ export const serviceData = [
       {
         title: "Experienced Professionals: ",
         content:
-          "Experts are comprised of highly trained and experienced irrigation professionals committed to delivering quality service.",
+          "Experts from the CSRA, to include Augusta and Evans GA, are comprised of highly trained and experienced irrigation professionals committed to delivering quality service.",
       },
       {
         title: "Prompt and Reliable: ",
@@ -122,6 +120,11 @@ export const serviceData = [
       },
       {
         title: "Tree Trimming: ",
+        content:
+          "Maintain the health and beauty of your trees with professional tree trimming services. Skilled arborists ensure precision and care in every trim.",
+      },
+      {
+        title: "Gutter Cleaning ",
         content:
           "Maintain the health and beauty of your trees with professional tree trimming services. Skilled arborists ensure precision and care in every trim.",
       },

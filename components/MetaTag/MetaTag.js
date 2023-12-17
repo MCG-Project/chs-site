@@ -5,7 +5,7 @@ export function MetaTag(props) {
   return (
     <>
       <Head>
-        <title>GeorigaLina | {props.tab}</title>
+        <title>{`GeorgiaLina | ${props.tab}`}</title>
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="UTF-8" />
         <meta name="description" content={props.description} />
