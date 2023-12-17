@@ -15,6 +15,7 @@ export default function Contact() {
         socialTitle={MetaTagSEOData[5].socialTitle}
         socialDescription={MetaTagSEOData[5].socialDescription}
         socialImage={LawnCare}
+        canonical={MetaTagSEOData[5].canonical}
       />
       <ContactMain />
       <ContactForm />
