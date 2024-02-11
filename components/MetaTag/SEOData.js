@@ -102,7 +102,7 @@ export const MetaTagSEOData = [
     tab: "Contact Us",
     canonical: "/contact",
     description:
-      "Contact us services in the CSRA,from plumbing to landscaping, to retaining walls, and irrigation.",
+      "Contact us for services in the CSRA,from plumbing to landscaping, to retaining walls, and irrigation.",
     keywords: [
       "CSRA",
       "irrigation augusta ga",
@@ -129,5 +129,25 @@ export const MetaTagSEOData = [
     socialTitle: "GeorgiaLina - Contact Us",
     socialDescription:
       "Contact us services in the CSRA,from plumbing to landscaping, to retaining walls, and irrigation.",
+  },
+  // Tree Services = 6
+  {
+    tab: "Tree Services",
+    url: "/tree-services",
+    description:
+      "Leading CSRA experts in tree services. Serving the CSRA to include Augusta and Evans, GA.",
+    keywords: [
+      "CSRA",
+      "tree removal in augusta ga",
+      "tree removal services in augusta ga",
+      "tree cutting service augusta ga",
+      "tree surgeon",
+      "tree service augusta ga",
+      "tree removal service in augusta ga",
+      "affordable tree service augusta ga",
+    ],
+    socialTitle: "GeorgiaLina - Retaining Wall",
+    socialDescription:
+      "Leading CSRA experts in retaining walls. Serving the CSRA to include Augusta and Evans, GA.",
   },
 ];

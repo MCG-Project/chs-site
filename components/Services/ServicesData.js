@@ -276,4 +276,77 @@ export const serviceData = [
     contactStatement:
       "For all your plumbing needs, contact GeorgiaLina Services. We're here to provide reliable, efficient, and affordable plumbing solutions tailored to your requirements.",
   },
+  // Tree Services
+  {
+    title: "Tree Service",
+    altImage: "Irrigation Image by kristasheppard from Pixabay",
+    mainContent:
+      "Welcome to GeorgiaLina Services, we partner with dedicated tree care solutions. Skilled arborists and tree care professionals are committed to enhancing the health, safety, and beauty of your trees and outdoor environment.",
+
+    listContent: [
+      {
+        title: "Tree Removal: ",
+        content:
+          "Trust the experienced arborists for safe and efficient tree removal services. Whether it's a hazardous tree or one that needs to be cleared for construction, our experts handle it with precision and care.",
+      },
+      {
+        title: "Tree Cutting: ",
+        content:
+          "Skilled aborists excels in precise tree cutting services. From selective pruning to shaping, they ensure the optimal health and appearance of your trees.",
+      },
+      {
+        title: "Tree Trimming and Pruning: ",
+        content:
+          "Maintain the health and aesthetics of your trees with expert trimming and pruning services. Arborists carefully assess and enhance the natural form of your trees.",
+      },
+      {
+        title: "Tree Health Assessment: ",
+        content:
+          "Ensure the longevity of your trees with comprehensive health assessments. Experts diagnose and address issues, promoting the overall well-being of your valuable green assets.",
+      },
+      {
+        title: "Emergency Tree Services: ",
+        content:
+          "Count on us for prompt and reliable emergency tree services. Whether it's storm damage or a fallen tree, we're available 24/7 to address urgent tree care needs.",
+      },
+      {
+        title: "Tree Surgeon Services: ",
+        content:
+          "Certified tree surgeons provide specialized care for your trees. From disease management to complex surgical procedures, trust us for expert tree surgeon services.",
+      },
+      {
+        title: "Stump Grinding and Removal: ",
+        content:
+          "Say goodbye to unsightly tree stumps with our stump grinding and removal services. Efficiently eliminate remnants of removed trees, enhancing the aesthetics of your landscape.",
+      },
+      {
+        title: "Tree Planting and Transplanting: ",
+        content:
+          "Add beauty and value to your property with professional tree planting and transplanting services. Experts assist in selecting the right species and ensure proper establishment.",
+      },
+    ],
+
+    secondaryContent: "Why Choose GeorgiaLina for your tree care needs?",
+
+    secondaryListContent: [
+      {
+        title: "Certified Arborists: ",
+        content:
+          "Our team includes certified arborists with extensive knowledge and expertise in tree care. We adhere to industry standards to ensure the health and vitality of your trees.",
+      },
+      {
+        title: "Safety First Approach: ",
+        content:
+          "We prioritize safety in every aspect of our tree care services. From tree removal to pruning, our team follows strict safety protocols to protect your property and our crew.",
+      },
+      {
+        title: "Customer-Centric Service: ",
+        content:
+          "Your satisfaction is our priority. We listen to your needs, provide transparent communication, and deliver tree care solutions tailored to your specific requirements.",
+      },
+    ],
+
+    contactStatement:
+      "For all your tree care needs, contact GeorgiaLina Tree Services. We're here to provide expert tree care, certified arborists, and a commitment to the health and beauty of your trees.",
+  },
 ];

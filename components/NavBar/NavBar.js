@@ -75,6 +75,9 @@ export function NavBar() {
                       <Dropdown.Item href="/retaining-wall">
                         Retaining Wall
                       </Dropdown.Item>
+                      <Dropdown.Item href="/tree-service">
+                        Tree Services
+                      </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
                   <Nav.Link href="/contact">Contact Us</Nav.Link>
@@ -116,6 +119,9 @@ export function NavBar() {
                 <Dropdown.Item href="/landscaping">Landscaping</Dropdown.Item>
                 <Dropdown.Item href="/retaining-wall">
                   Retaining Wall
+                </Dropdown.Item>
+                <Dropdown.Item href="/tree-service">
+                  Tree Services
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
