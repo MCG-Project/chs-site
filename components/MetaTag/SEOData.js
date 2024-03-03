@@ -150,4 +150,21 @@ export const MetaTagSEOData = [
     socialDescription:
       "Leading CSRA experts in retaining walls. Serving the CSRA to include Augusta and Evans, GA.",
   },
+  // Gutters = 7
+  {
+    tab: "Gutters",
+    url: "/gutters",
+    description:
+      "Leading CSRA experts in gutter services. Serving the CSRA to include Augusta and Evans, GA.",
+    keywords: [
+      "CSRA",
+      "gutters augusta ga",
+      "evans gutters	",
+      "gutters evans ga",
+      "gutter repair near me",
+    ],
+    socialTitle: "GeorgiaLina - Retaining Wall",
+    socialDescription:
+      "Leading CSRA experts in retaining walls. Serving the CSRA to include Augusta and Evans, GA.",
+  },
 ];

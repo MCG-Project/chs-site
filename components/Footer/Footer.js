@@ -22,7 +22,7 @@ export function Footer() {
               id={styles.mobileFooterLogo}
             />
             <p>
-              <strong>©2023 GeorgiaLina Services</strong>
+              <strong>©2024 GeorgiaLina Services</strong>
             </p>
           </Container>
         </div>
@@ -43,7 +43,7 @@ export function Footer() {
               className="align-self-start"
             />
             <p className="m-1 align-self-center">
-              <strong>©2023 GeorgiaLina Services</strong>
+              <strong>©2024 GeorgiaLina Services</strong>
             </p>
           </Container>
         </div>
