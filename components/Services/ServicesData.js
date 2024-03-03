@@ -1,5 +1,5 @@
 export const serviceData = [
-  // irrigation
+  // 0 irrigation
   {
     title: "Irrigation",
     altImage: "Irrigation Image by Peggychoucair from Pixabay",
@@ -80,7 +80,7 @@ export const serviceData = [
     contactStatement:
       "For all your irrigation needs, contact GeorgiaLina Services. We're here to provide reliable, efficient, and sustainable irrigation solutions tailored to your requirements.",
   },
-  // landscaping
+  // 1 landscaping
   {
     title: "Landscaping",
     altImage: "Landscaping Image by mschiffm from Pixabay",
@@ -153,7 +153,7 @@ export const serviceData = [
     contactStatement:
       "For all your landscaping needs, contact GeorgiaLina Landscaping. We're here to provide reliable, creative, and sustainable landscaping solutions that transform your outdoor space.",
   },
-  // retaining walls
+  // 2 retaining walls
   {
     title: "Retaining Wall",
     altImage: "Retaining Wall",
@@ -216,7 +216,7 @@ export const serviceData = [
     contactStatement:
       "For all your retaining wall needs, contact GeorgiaLina Retaining Walls. We're here to provide expert craftsmanship, customized solutions, and a commitment to excellence in every project.",
   },
-  // plumbing
+  // 3 plumbing
   {
     title: "Plumbing",
     altImage: "Plumbing Image by 13727445 from Pixabay",
@@ -276,7 +276,7 @@ export const serviceData = [
     contactStatement:
       "For all your plumbing needs, contact GeorgiaLina Services. We're here to provide reliable, efficient, and affordable plumbing solutions tailored to your requirements.",
   },
-  // Tree Services
+  // 4 Tree Services
   {
     title: "Tree Service",
     altImage: "Irrigation Image by kristasheppard from Pixabay",
@@ -348,5 +348,88 @@ export const serviceData = [
 
     contactStatement:
       "For all your tree care needs, contact GeorgiaLina Tree Services. We're here to provide expert tree care, certified arborists, and a commitment to the health and beauty of your trees.",
+  },
+  // 5 Gutters
+  {
+    title: "Gutters",
+    altImage: "Gutter Image by 123switch from Pixabay",
+    mainContent:
+      "Welcome to GeorgiaLina Services, we partner with dedicated tree care solutions. Skilled arborists and tree care professionals are committed to enhancing the health, safety, and beauty of your trees and outdoor environment.",
+
+    listContent: [
+      {
+        title: "Gutter Cleaning: ",
+        content:
+          "Ensure the optimal performance of your gutters with our professional cleaning services. Our experts efficiently remove debris, leaves, and blockages, preventing potential water damage to your property.",
+      },
+      {
+        title: "Gutter Installation: ",
+        content:
+          "Trust our skilled technicians for seamless gutter installation. We tailor our services to meet your property's specific needs, providing durable and effective gutter systems to safeguard your home.",
+      },
+      {
+        title: "Gutter Repair and Maintenance: ",
+        content:
+          "Maintain the integrity of your gutters with our repair and maintenance services. Our specialists identify and address issues promptly, preventing leaks and ensuring your gutters function flawlessly.",
+      },
+      {
+        title: "Downspout Cleaning and Repair: ",
+        content:
+          "Keep water flowing smoothly away from your property by availing our downspout cleaning and repair services. Our experts ensure that downspouts remain clear and functional, preventing water buildup.",
+      },
+      {
+        title: "Gutter Guard Installation: ",
+        content:
+          "Say goodbye to constant gutter cleaning with our gutter guard installation services. We provide effective solutions to keep leaves and debris out, allowing water to flow freely while reducing maintenance efforts.",
+      },
+      {
+        title: "Emergency Gutter Services: ",
+        content:
+          "Count on us for 24/7 emergency gutter services. Whether it's a sudden blockage or damage, our team is ready to address urgent gutter-related issues to protect your property from water damage.",
+      },
+      {
+        title: "Gutter Inspection and Assessment: ",
+        content:
+          "Ensure the longevity of your gutter system with our comprehensive inspection and assessment services. Our professionals identify potential issues and recommend proactive measures to keep your gutters in top condition.",
+      },
+      {
+        title: "Seamless Gutter Upgrades: ",
+        content:
+          "Upgrade your property with seamless gutter systems that enhance both functionality and aesthetics. Our installation experts ensure a custom fit, minimizing the risk of leaks and improving the overall look of your home.",
+      },
+      {
+        title: "Gutter Realignment and Pitch Correction: ",
+        content:
+          "Optimize the performance of your gutters by availing our realignment and pitch correction services. Our technicians ensure that your gutters are properly aligned, allowing efficient water drainage and preventing overflow.",
+      },
+      {
+        title: "Gutter System Consultation: ",
+        content:
+          "Get expert advice on the best gutter system for your property. Our consultants assess your needs, provide tailored recommendations, and guide you through the selection process for a reliable and effective gutter solution.",
+      },
+    ],
+
+    secondaryContent: "Why Choose GeorgiaLina for your gutter needs?",
+
+    secondaryListContent: [
+      {
+        title: "Certified Arborists: ",
+        content:
+          "Our team includes certified gutter experts with extensive knowledge and expertise in gutters. We adhere to industry standards to ensure structural integrity of your gutters.",
+      },
+      {
+        title: "Safety First Approach: ",
+        content:
+          "We prioritize safety in every aspect of our gutters services. From gutter installation, repair or cleaning, our team follows strict safety protocols to protect your property and our crew.",
+      },
+      {
+        title: "Customer-Centric Service: ",
+        content:
+          "Your satisfaction is our priority. We listen to your needs, provide transparent communication, and deliver gutter solutions tailored to your specific requirements.",
+      },
+    ],
+
+    contactStatement:
+      "For all your gutter needs, contact GeorgiaLina Gutter Services. We're here to provide expert gutter installation, repair or cleaning.",
   },
 ];

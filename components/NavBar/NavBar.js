@@ -78,6 +78,7 @@ export function NavBar() {
                       <Dropdown.Item href="/tree-service">
                         Tree Services
                       </Dropdown.Item>
+                      <Dropdown.Item href="/gutters">Gutters</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
                   <Nav.Link href="/contact">Contact Us</Nav.Link>
@@ -123,6 +124,7 @@ export function NavBar() {
                 <Dropdown.Item href="/tree-service">
                   Tree Services
                 </Dropdown.Item>
+                <Dropdown.Item href="/gutters">Gutters</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
             <ColoredLine />
